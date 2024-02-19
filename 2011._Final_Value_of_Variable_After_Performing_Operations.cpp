@@ -9,7 +9,7 @@ public:
             {
                 x++;
             }
-            else if(operations[i]=="--X" || operations[i]=="X--")
+            else
             {
                 x--;
             }
