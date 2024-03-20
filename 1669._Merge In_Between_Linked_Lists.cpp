@@ -1,17 +1,7 @@
 class Solution {
 public:
-    int getLength(ListNode* head) {
-        int count = 0;
-        ListNode* temp = head;
-        while (temp != NULL) {
-            count++;
-            temp = temp->next;
-        }
-        return count;
-    }
     
     ListNode* mergeInBetween(ListNode* list1, int a, int b, ListNode* list2) {
-        int len = getLength(list1);
         
         // Find the ath node and its previous node
         ListNode* prevA = NULL;
